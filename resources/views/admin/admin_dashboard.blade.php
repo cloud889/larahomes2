@@ -49,18 +49,15 @@ License: For each use you must have a valid license purchased only from above li
 
 		<!-- partial:partials/_sidebar.html -->
         @include('admin.body.sidebar')
-   
 		<!-- partial -->
 	
-		<div class="page-wrapper">
-					
+		<div class="page-wrapper">		
 			<!-- partial:partials/_navbar.html -->
-			@include('admin.body.header')
+			    @include('admin.body.header')
 			<!-- partial -->
+            {{-- partial:partials/main section --}}
             <div class="page_content">
-
                 @yield('admin')
-
             </div>
             
             <!-- partial:partials/_footer.html -->
